@@ -15,7 +15,9 @@ app = Flask(__name__)
 
 # ======== Routing =========================================================== #
 # -------- Login ------------------------------------------------------------- 
-
+@app.route('/', methods=['GET', 'POST'])
+def login():
+    return render_template('home.html')
 
 @app.route('/prediction', methods=['GET', 'POST'])
 def prediction():
