@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-
+# -*- coding: utf-8 -
 from scripts import tabledef
 from flask import session
 from sqlalchemy.orm import sessionmaker
